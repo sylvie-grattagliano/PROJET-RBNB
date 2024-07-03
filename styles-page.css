@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding:20px 
+    padding:20px
+
+}
+
+    
+.bnb{
+    
+    
+    height:50px;
+    
+
+}
+
+.menu1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.barre-recherche {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(210, 206, 206);
+    background-color: whitesmoke;
+    border-radius: 50px;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    
+
+}
+.loupe {
+
+    height: 30px;
+    padding:  20px ;
+    
+    
+}
+
+.bloc-icone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100 px;
+    margin-top: 20px;
+    
+}
+.image-piscines {
+
+    width: 50px; /* Largeur de l'image à 100% de son conteneur */
+    height: auto;
+}
+.image-sureau {
+    width: 50px; 
+    height: auto;
+}
+.image-bordemer {
+    width: 50px; 
+    height: auto;
+}
+.image-campagne {
+    width: 50px; 
+    height: auto;
+}
+.image-ferme {
+    width: 50px; 
+    height: auto;   
+}
+
+/*--pour mettre en groupe les modif a toutes mes images en meme temps--
+.image-bordemer, 
+.image-campagne,
+.image-ferme {
+}*/
+
+
+.imagehotel {
+
+    width: 300px;
+   height: auto ;
+}
+/*.hotel {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+}*/
+
+.hotel1 {
+
+    display: fLex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+       
+}
+.hotel2 {
+
+    display: fLex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;}
+
+.site-footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    border-style: solid; color: rgb(158, 153, 147);
+} 
+.textNoir {
+    color: black;
+}
