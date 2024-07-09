@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    padding:20px 
-    padding:20px
+    padding:20px;
+   
 
 }
 
@@ -21,20 +21,24 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
 .barre-recherche {
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     border: 1px solid rgb(210, 206, 206);
     background-color: whitesmoke;
     border-radius: 50px;
     justify-content: space-around;
     margin-left: 20%;
     margin-right: 20%;
-
+    margin-top: 30px;           
     
-
+                        /* j'ai ajouté margin top et retiré justify-content: space-between; pas necessaire*/
+    
 }
+
+
 .loupe {
 
     height: 30px;
@@ -43,12 +47,15 @@ body {
     
 }
 
+                          /*j ai modifié width par auto et margin top*/
 .bloc-icone {
     display: flex;
+    
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100 px;
-    margin-top: 20px;
+    width: auto;
+    margin-top: 60px;
+  
     
 }
 .image-piscines {
